@@ -109,6 +109,7 @@ class MainMenu extends GameObject {
         this.greetingText.horizontalAlignment = BABYLON.GUI.TextBlock.HORIZONTAL_ALIGNMENT_CENTER;
         this.greetingText.width = .5;
         this.greetingText.height = .7;
+        this.greetingText.paddingTop = 50;
 
         this.instructionsText = new BABYLON.GUI.TextBlock();
         this.instructionsText.text = "press any key to play";

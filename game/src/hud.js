@@ -20,11 +20,11 @@ var createHud = function() {
 }
 
 var updateScoreText = function() {
-    scoreText.text = "Score: " + score;
+    scoreText.text = `Score: ${score}`;
 }
 
 var resetScore = function() {
-    console.log("Score reset at: " + score);
+    console.log(`Score reset at: ${score}`);
     score = 0;
     updateScoreText();
 }

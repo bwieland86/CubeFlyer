@@ -9,5 +9,6 @@ const greetings = [
     'Flying at the speed of an unladend swallow',
     'Resistance is futile... just like this game',
     'Yeah, we don\'t know why either',
-    'The perfect addiction to avoid life'
+    'The perfect addiction to avoid life',
+    'Sphere-free edition!'
 ];
