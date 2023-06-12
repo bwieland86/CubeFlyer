@@ -33,8 +33,16 @@ class Player extends GameObject {
         this.capVelocity(20);
         this.playerMesh.position.y += this.velocity.y * deltaTime;
         if (this.testGameOver()) {
-            this.endGame()
-        }
+            
+            // Game over, check high score and reset current score
+            updateHighScore(score);
+            this.endGame();
+
+        } else {
+
+            // Call method to update score
+            addScore(0.1);
+        };
 
         // To simplify game code the Player handles spawning obstacles (this makes it easier to track for collisions without writing a full handler)
         // A side effect of this is that creating or destroying the Player can pause or start the game.
@@ -52,6 +60,7 @@ class Player extends GameObject {
 
         mainMenu.visible = true;
         destroyObject(this);
+        // Call method to calculate high score
         resetScore();
     }
 

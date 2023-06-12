@@ -1,4 +1,17 @@
-# The Flying Cube Game!
+# 🚀✨ **Welcome to the Exciting Universe of Flying Cube!** ✨🚀
+**Flying Cube** is a **super-fun**, **super-challenging** game that tests your agility and dexterity like no other! Designed for _all ages_ and _all abilities_, it's a perfect pixel party that will keep you hooked. Plus, it's adaptive for various devices, which makes it even cooler!
+
+## 🎮 **How to Play** 🎮
+Your mission, brave player, is to masterfully maneuver a charming little cube through an infinite maze of barriers. Here's how:
+
+1. 🚁 **The Lift-off**: Press that _spacebar_ to make your cube soar like a rocket! Remember, timing is crucial. So, tap it just right to keep your cube at the perfect altitude. 
+
+2. 🏞️ **The Great Navigate**: Guide your cube through the risky routes formed by the upper and lower barriers. But beware, your cube must not touch these barriers! A single touch and _**poof!**_ Your cube's delightful flight comes to an abrupt end. 
+
+So, what are you waiting for? 🎈 **Join the ride filled with fun, thrill, and the delicious challenge of Flying Cube!** 🎈 You'll be captivated by every pixel-tastic minute of it!
+
+
+ 
 
 > If you are accessing this repo from the [Open source bootcamp org](https://github.com/open-source-bootcamp) then please do not raise any PRs against this repo - this is a template designed to be used in events like the open source bootcamp, and you should raise issues against repos created during your event using this as a template. Only riase issues if they would enhance the ability to use this as a template repo.
 
@@ -25,6 +38,7 @@ We've also provided a file that should support launching from VS Code that will 
 
 This project is intended as a sandbox for you to learn about GitHub and contributing to Open Source. We're accepting most changes in support of that!
 
-## Aknowledgements
+## Acknowledgements
 
 All the code in this repo was written by [Sam Wronski](https://github.com/runewake2).
+
