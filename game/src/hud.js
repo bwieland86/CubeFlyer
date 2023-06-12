@@ -9,23 +9,23 @@ var createHud = function() {
 
     // Create a Text Block that can display the current score
     scoreText = new BABYLON.GUI.TextBlock();
-    scoreText.fontFamily = "Algerian";
-    scoreText.color = "blue";
-    scoreText.fontSize = 64;
+    scoreText.fontFamily = "calibri";
+    scoreText.color = "white";
+    scoreText.fontSize = 56;
     scoreText.verticalAlignment = BABYLON.GUI.TextBlock.VERTICAL_ALIGNMENT_TOP;
     scoreText.horizontalAlignment = BABYLON.GUI.TextBlock.HORIZONTAL_ALIGNMENT_CENTER;
     scoreText.width = .5;
-    scoreText.height = .10;
+    scoreText.height = .20;
 
     // Create a Text Block that can display the high score
     highScoreText = new BABYLON.GUI.TextBlock();
-    highScoreText.fontFamily = "Comic Sans, Comic Sans MS";
-    highScoreText.color = "white";
-    highScoreText.fontSize = 48;
+    highScoreText.fontFamily = "calibri";
+    highScoreText.color = "aqua";
+    highScoreText.fontSize = 56;
     highScoreText.verticalAlignment = BABYLON.GUI.TextBlock.VERTICAL_ALIGNMENT_TOP;
     highScoreText.horizontalAlignment = BABYLON.GUI.TextBlock.HORIZONTAL_ALIGNMENT_RIGHT;
     highScoreText.width = .5;
-    highScoreText.height = .15;
+    highScoreText.height = .20;
     
     updateScoreText();
     updateHighScoreText();
